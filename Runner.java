@@ -14,7 +14,7 @@ public class Runner
         Scanner in = new Scanner(System.in);
 
 
-        // create an array of ints with the identifier "values"
+        // create an array of ints with the identifier "values" (choose whatever value you want or get user input).
         
         
         for(int i = 0; i < values.length; i++)
@@ -22,6 +22,8 @@ public class Runner
             System.out.print("Enter value: ");
             values[i] = in.nextInt();
         }
+
+        // call maxVal method and print result
     }
 }
 
